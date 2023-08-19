@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.description{
+    background-color: midnightblue;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    padding-left: 5%;
+}
+h1{
+    background-color: rgb(234, 235, 236);
+    padding: 10px;
+    padding-left: 5%;
+    font-family: sans-serif;
+}
+h4{
+    margin-top: 15px;
+}
+.contain{
+    width: 70%;
+    background-color: rgb(247, 243, 243);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.img-container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.img-container>img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+.contain>div{
+    margin-top: 5px;
+}
+.contain>div>input{
+    width: 200px;
+    padding: 6px;
+    outline: rgb(224, 216, 216);
+    border:1px solid rgb(224, 216, 216);;
+}
+.contain>div>input:focus{
+    outline:1px solid midnightblue;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color:midnightblue ;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 3px;
+  
+}
+.icon-image{
+position: absolute;
+left: 35%;
+top: 52%;
+/* width: 50px; */
+/* height: 50px; */
+/* position: relative; */
+}
+.icon-image>img{
+    width: 100%;
+}

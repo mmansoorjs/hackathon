@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authentication Page</title>
+	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">  	
+                   
+        <input type="checkbox" id="chk" aria-hidden="true">
+        
+        <div class="signup">
+            <div>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <p class="error-msg"></p>
+
+					<input type="text" name="txt" placeholder="First name" required="" class="first-name" >
+					<input type="text" name="txt" placeholder="Last name" required="" class="last-name" >
+					<input type="email" name="email" placeholder="Email" class="sigup-email">
+					<input type="password" name="pswd" placeholder="Password"  class="sigup-password">
+					<button class="sigup">Sign up</button>
+                </div>
+			</div>
+
+			<div class="login">
+				<div>
+					<label for="chk" aria-hidden="true">Login</label>
+                    <p class="err-msg"></p>
+					<input type="email" name="email" placeholder="Email" required="" class="login-email">
+					<input type="password" name="pswd" placeholder="Password" required="" class="login-password">
+					<button class="log">Login</button>
+                </div>
+			</div>
+	</div>
+
+
+
+<!-- 
+<div class="Data" style="width: 18rem;  color: white; display: none;" >
+<h1 style="text-align: center;">Account verify</h1>
+<h2 style="text-align: center; color: red;" class="Symbol">&#10006 </h2>
+ <button  class="verify-btn">sent verification</button>
+ <p class="log-out">Log out</p>
+</div>
+
+&#10004 -->
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
